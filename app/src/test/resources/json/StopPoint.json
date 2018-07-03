@@ -1,0 +1,230 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.StopPointsResponse, Tfl.Api.Presentation.Entities",
+  "centrePoint": [
+    51.585,
+    -0.017
+  ],
+  "stopPoints": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+      "naptanId": "940GZZLUWWL",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000249",
+      "stopType": "NaptanMetroStation",
+      "stationNaptan": "940GZZLUWWL",
+      "hubNaptanCode": "HUBWHC",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          }
+        }
+      ],
+      "lineGroup": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineGroup, Tfl.Api.Presentation.Entities",
+          "stationAtcoCode": "940GZZLUWWL",
+          "lineIdentifier": [
+            "victoria"
+          ]
+        }
+      ],
+      "lineModeGroups": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineModeGroup, Tfl.Api.Presentation.Entities",
+          "modeName": "tube",
+          "lineIdentifier": [
+            "victoria"
+          ]
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUWWL",
+      "commonName": "Walthamstow Central Underground Station",
+      "distance": 301.81792038889114,
+      "placeType": "StopPoint",
+      "additionalProperties": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "ServiceInfo",
+          "key": "Night",
+          "sourceSystemKey": "TransXchangeETL",
+          "value": "yes"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Address",
+          "key": "Address",
+          "sourceSystemKey": "StaticObjects",
+          "value": "Walthamstow Central Station BR Hoe St,London,E17 7LP"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Payphones",
+          "sourceSystemKey": "StaticObjects",
+          "value": "0"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Cash Machines",
+          "sourceSystemKey": "StaticObjects",
+          "value": "0"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Gates",
+          "sourceSystemKey": "StaticObjects",
+          "value": "7"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Escalators",
+          "sourceSystemKey": "StaticObjects",
+          "value": "2"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Photo Booths",
+          "sourceSystemKey": "StaticObjects",
+          "value": "0"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Ticket Halls",
+          "sourceSystemKey": "StaticObjects",
+          "value": "1"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Bridge",
+          "sourceSystemKey": "StaticObjects",
+          "value": "no"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Lifts",
+          "sourceSystemKey": "StaticObjects",
+          "value": "0"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Other Facilities",
+          "sourceSystemKey": "StaticObjects",
+          "value": "electronic whiteboards in ticket hall, post office style queuing for tickets, subway to street, routeways platform to ticket hall."
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Toilets",
+          "sourceSystemKey": "StaticObjects",
+          "value": "no"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "WiFi",
+          "sourceSystemKey": "StaticObjects",
+          "value": "yes"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Car park",
+          "sourceSystemKey": "StaticObjects",
+          "value": "no"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Help Points",
+          "sourceSystemKey": "StaticObjects",
+          "value": "0 on platforms, 0 in ticket halls, 0 elsewhere"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Address",
+          "key": "PhoneNo",
+          "sourceSystemKey": "StaticObjects",
+          "value": "0845 330 9880"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Facility",
+          "key": "Waiting Room",
+          "sourceSystemKey": "StaticObjects",
+          "value": "no"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "Geo",
+          "key": "Zone",
+          "sourceSystemKey": "StaticObjects",
+          "value": "3"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "NearestPlaces",
+          "key": "SourceSystemPlaceId",
+          "sourceSystemKey": "StaticObjects",
+          "value": "TaxiRank_4913"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "NearestPlaces",
+          "key": "SourceSystemPlaceId",
+          "sourceSystemKey": "StaticObjects",
+          "value": "TaxiRank_5295"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+          "category": "NearestPlaces",
+          "key": "SourceSystemPlaceId",
+          "sourceSystemKey": "StaticObjects",
+          "value": "TaxiRank_5235"
+        }
+      ],
+      "children": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+          "naptanId": "9400ZZLUWWL1",
+          "modes": [],
+          "icsCode": "1000249",
+          "stationNaptan": "940GZZLUWWL",
+          "hubNaptanCode": "HUBWHC",
+          "lines": [],
+          "lineGroup": [],
+          "lineModeGroups": [],
+          "status": true,
+          "id": "9400ZZLUWWL1",
+          "commonName": "Walthamstow Central Underground Station",
+          "placeType": "StopPoint",
+          "additionalProperties": [],
+          "children": [],
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      ],
+      "lat": 51.582965,
+      "lon": -0.019885
+    }
+  ],
+  "pageSize": 0,
+  "total": 0,
+  "page": 0
+}

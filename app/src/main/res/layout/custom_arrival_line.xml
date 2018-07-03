@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:background="@color/cardview_dark_background">
+
+    <TextView
+        android:id="@+id/timeTextView"
+        style="@style/TextAppearance.AppCompat.Subhead.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_next_train_time"
+        tools:text="2'"/>
+
+    <TextView
+        android:id="@+id/lineNameTextView"
+        style="@style/TextAppearance.AppCompat.Subhead.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Line name"/>
+
+</LinearLayout>

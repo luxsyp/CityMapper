@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/stopPointName"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="stop name"/>
+
+        <john.snow.citymapper.arrivals.ui.ArrivalLineCustomView
+            android:id="@+id/nextTrain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/cardview_dark_background"
+            tools:layout_height="20dp"
+            tools:layout_width="20dp"/>
+
+        <john.snow.citymapper.arrivals.ui.ArrivalLineCustomView
+            android:id="@+id/nextTrain2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/cardview_dark_background"
+            tools:layout_height="20dp"
+            tools:layout_width="20dp"/>
+
+        <john.snow.citymapper.arrivals.ui.ArrivalLineCustomView
+            android:id="@+id/nextTrain3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/cardview_dark_background"
+            tools:layout_height="20dp"
+            tools:layout_width="20dp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loadingNextTrains"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/default_next_train_time"/>
+
+</android.support.v7.widget.CardView>
